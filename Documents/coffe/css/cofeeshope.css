@@ -1,0 +1,131 @@
+/*Start main rules*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.continer{
+    width: 100%;
+    height:100vh;
+    background:#F4ECE5;
+    position: relative;
+    display: flex;
+}
+.continer .left{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.continer .circle{
+    position: absolute;
+    top:50px;
+    left:-40px;
+    background: #CD9368;
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    /*
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    */
+}
+.continer .ci{
+    width: 20px;
+    height:20px;
+    position: absolute;
+    top:40px;
+    left :50px;
+    background :#A93E00;
+    border-radius: 50%;
+}
+.continer .left h1{
+    position: absolute;
+    top:70px;
+    left:55px;
+    color:#A93E00;
+    font-size: 40px;
+}
+.continer .left  form{
+ position: absolute;
+ width: 500px;
+ top:200px;
+ left: 50px;
+ display: flex;
+ flex-direction: column;
+}
+.continer .left  form input{
+    width: 90%;
+    height: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color:#A93E00;
+    background: none;
+    border:none;
+    outline:none;
+    border-bottom: 2px solid #A93E00;
+}
+.continer .left  form  label{
+  color:#A93E00;
+}
+.continer .left  form  button{
+    width: 90%;
+    height:50px;
+    background: #A93E00;
+    color:#fbfaf8;
+    outline:none;
+    border:none;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.continer .right{
+    flex-basis: 50%;
+  text-decoration: ;
+    position: relative;
+}
+.continer .first{
+    position: absolute;
+    top :80px;
+    left : -10px;
+    font-size: 30px;
+    z-index: 2;
+}
+.continer .last{
+    position: absolute;
+    top :200px;
+    left : -10px;
+    font-size: 30px;
+    z-index: 2;
+}
+.continer .back{
+  width: 90%;
+  height:65%;
+  background-color: #CD9368;
+  border-radius: 10px;
+  position: absolute;
+  top:70px;
+  right:30px;
+}
+.continer .back img{
+    width: 300px;
+    height:500px;
+    position: absolute;
+    top:20px;
+    right:30px;
+    border-radius: 10px;
+}
+.continer .back span{
+    position: absolute;
+    bottom:20px;
+    left:-20px;
+    width: 100px;
+    height:35px;
+    border-radius: 10px;
+    z-index: 2;
+    background-color: #F4ECE5;
+    color:#A93E00;
+    padding:7px;
+
+    font-size: 18px;
+}
+/*end main rules*/

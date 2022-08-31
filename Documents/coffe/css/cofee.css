@@ -1,0 +1,326 @@
+/*
+Start main rules
+*/
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    transition: all .5s ease;
+}
+/*Start continer rules*/
+.continer
+{
+   width:100%;
+   min-height: 100vh;
+   background-color:#F4ECE5;
+   display: flex;
+   flex-direction: column;
+  
+
+}
+.continer header{
+   padding-top: 30px;
+   display: flex;
+   justify-content: space-between;
+}
+.continer header .logo{
+    font-family: 'Italianno', 'cursive';
+    color:#602A00;
+    flex-basis: 30%;
+}
+.continer header .logo h3{
+    font-size: 50px;
+    margin-left: 20px;
+}
+.continer header .nav {
+    flex-basis: 50%;
+}
+.continer header .nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+.continer header .nav ul li{
+    list-style: none;
+    margin-top: 15px;
+    
+}
+.continer header .nav ul li a{
+    text-decoration: none;
+    color:#602A00;
+    font-size: 20px;
+    font-weight: 200;
+}
+.continer header .nav .active{
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #602A00;
+}
+.continer header .nav ul li a:hover{
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #602A00;
+}
+.continer header .menu{
+    flex-basis: 30%;
+}
+.continer header .menu button{
+    padding:12px 50px;
+    border:2px solid #cc7c3f;
+    color:#cc7c3f;
+    background: none;
+    margin-left: 170px;
+    border-radius: 10px;
+    outline: none;
+}
+.continer header .menu button:hover{
+    background: #9F3E00;
+    color:#fbfaf8;
+    border: 1px solid #fbfaf8;
+}
+.continer main{
+    display: flex;
+    padding-bottom: 150px;
+}
+.continer main .left-main{
+
+    padding-left: 30px;
+}
+.continer main .left-main h1{
+    font-size: 60px;
+    color:#602A00;
+    padding-top: 130px;
+    margin-left: 10px;
+
+    
+}
+.continer main .left-main p{
+    padding-top: 40px;
+    color:#6E4728;
+    font-size: 20px;
+    white-space: 2px;
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+.continer main .left-main button{
+    padding:12px 50px;
+    border:1px solid #cc7c3f;
+    color:#fbfaf8;
+    background: #9F3E00;
+    margin-top: 30px;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 15px;
+}
+.continer main .left-main button:hover{
+    background: #cc7c3f;
+    color:#fbfaf8;
+    border: 1px solid #fbfaf8;
+}
+.continer main .right-main{
+    
+}
+.continer main .right-main img{
+   margin-top: 70px;
+   width: 630px;
+   transform: rotate(7deg);
+   margin-right: 5px;
+}
+.continer .Last{
+    width: 100%;
+    min-height: 700px;
+    background-color: #EDDCCD;
+   display: flex;
+   flex-direction: column;
+}
+.continer .Last .pic{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.continer .Last .pic>div{
+    width: 15%;
+    height:160px;
+    background-color: #F4ECE5;
+    box-shadow: 3px 3px 8px rgba(0,0,0,.1),
+    -3px -3px 8px rgba(0,0,0,.1);
+    border:1px solid #EDDCCD;
+    margin-top: -80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.first{
+  
+    width: 80%;
+    margin-right: 35px;
+ 
+}
+.lasti{
+    width: 80%;
+    margin-top: -60px;
+    margin-left: 50px;
+}
+
+.continer .Last .point{
+    margin: 30px auto;
+    display: flex;
+   
+}
+.continer .Last .point>div{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    background: #eee9e4;
+    margin-left: 15px;
+}
+.continer .Last .take-order{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.continer .Last .take-order h2{
+    color:#602A00;
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.continer .Last .take-order p{
+    color: #6E4728;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 2;
+}
+.continer .Last .take-order .left{
+    width: 100px;
+    height:100px;
+    background-color: #cc7c3f;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+}
+.continer .Last .take-order .left i{
+    color:#EDDCCD;
+    font-size: 30px;
+    margin-top: 29px;
+    margin-left: -10px;
+}
+.continer .Last .take-order .search{
+    width: 40%;
+    height:50px;
+    background-color: #fbfaf8;
+    margin: 20px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.continer .Last .take-order .search i{
+    color:#9F3E00;
+    font-size: 20px;
+    flex-basis: 10%;
+    margin-top: 15px;
+}
+.continer .Last .take-order .search input{
+    flex-basis: 50%;
+    height:100%;
+    background-color: none;
+    border: none;
+    color:#9F3E00;
+    outline: none;
+}
+.continer .Last .take-order .search button{
+    flex-basis:  21%;
+    height:50px;
+    border:1px solid #cc7c3f;
+    color:#fbfaf8;
+    background: #9F3E00;
+    border-radius: 10px;
+    outline: none;
+   margin-left: 81px;
+   font-weight: bold;
+}
+.continer .Last .menuCoffe{
+   width: 100%;
+   min-height: 800px;
+   display: flex;
+   
+   margin-top: 30px;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   padding: 30px;
+}
+.continer .Last .menuCoffe .all{
+    width: 30%;
+    height:350px;
+    
+   
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.1)
+    ,-2px -2px 8px rgba(0,0,0,.1);
+    display: flex;
+   flex-direction: column;
+}
+.continer .Last .menuCoffe .all .top{
+    height: 60%;
+    width: 100%;
+    position: relative;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   padding-bottom: 10px;
+   
+}
+.continer .Last .menuCoffe .all .top img{
+    width: 100%;
+    height:99%;
+    z-index: 2;
+     border-radius: 10px;
+}
+.continer .Last .menuCoffe .all .top span{
+    z-index: 3;
+   position: absolute;
+   top:15px;
+   left:20px;
+   width: 90px;
+   height:30px;
+   background: #cc7c3f;
+   color:#fbfaf8;
+   border-radius: 7px;
+   padding: 5px;
+}
+.continer .Last .menuCoffe .all .top span i{
+    margin-left: 10px;
+    margin-right: 7px;
+}
+.continer .Last .menuCoffe div .bottom{
+    height: 40%;
+    width: 100%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    color:#602A00;
+    background: #EDDCCD;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.continer .Last .menuCoffe div .bottom h1{
+  
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.continer .Last .menuCoffe div .bottom div{
+    display: flex;
+    
+   
+    justify-content: space-around;
+}
+.continer .Last .menuCoffe div .bottom div span {
+    font-size: 20px;
+}
+.continer .Last .menuCoffe div .bottom div span:first-of-type{
+    margin-left: -80px;
+   
+}
+
+/*End continer rules*/
